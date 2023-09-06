@@ -1,0 +1,47 @@
+1. [] represents a list.
+
+2. spam[2] = 'hello'
+
+3. spam[int(int('3' * 2) // 11)] = spam[3] = 'd'
+
+4. spam[-1] = 'd'
+
+5. spam[:2] = 'a','b'
+
+6. 1
+
+7. [3.14, 'cat', 11, 'cat', True, 99]
+
+8. [3.14, 11, 'cat', True]
+
+9. +, * are the operators for list concatenation and list replication.
+
+10. append() adds the given value at the last of list
+    where as insert() adds the value at a given position.
+
+11. The two ways to delete an element from list are using a del statement
+    and using a remove() method. 
+
+12. Lists are similar to strings because we can use indexing, slicing, len(),
+    in and not in operators and even for loops in both strings and lists.
+
+13. The main difference between lists and tuples is lists are mutable i.e. their values can be changed
+    where as tuples are immutable i.e. there values can't be changed.
+
+14. (42,) here we have used a ',' to indicate that it's a tuple not an integer.
+
+15. spam = [1,2,3,4] #List
+    bacon = (1,2,3)  #Tuple 
+    
+    To convert list to tuple we use
+    tuple(spam)
+    spam = (1,2,3,4) #Tuple
+
+    To convert tuple to list we use
+    list(bacon)
+    bacon = [1,2,3] #List
+
+16. Variables that contain list values actually contain the reference of the list instead of list itself.
+
+17. copy.copy() is used to copy a list and store it another variable which is independent from the list copied.
+    copy.deepcopy() does the same with lists containing multiple lists.

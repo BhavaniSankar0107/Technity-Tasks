@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #e3f0ff;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 10px;
+    /* background-color: aquamarine; */
+}
+
+.logo{
+    padding-left: 100px;
+    padding-right: 250px;
+}
+
+.links ul{
+    display: flex;
+}
+
+.links ul li{
+    list-style-type: none;
+    padding: 30px;
+}
+
+.links ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+.login ul{
+    display: flex;
+}
+
+.login ul li{
+    list-style-type: none;
+    padding: 30px 20px;
+}
+
+.login ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+#gt{
+    margin-right: 80px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+}
+
+/*Home page*/
+.container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text{
+    flex: 40%;
+    /* background-color: yellow; */
+    padding-left: 100px;
+}
+
+.text h1{
+    padding-top: 100px;
+    font-size: 48px;
+    /* background-color: aqua; */
+}
+
+.text p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.newsletter{
+    display: flex;
+    align-items: center;
+}
+
+.newsletter input{
+    padding: 20px;
+    padding-right: 40px;
+    border: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: white;
+}
+
+.newsletter button{
+    padding: 20px 40px;
+    border: 0;
+    background-color: blueviolet;
+    color: white;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+
+.color{
+    color: rgb(239, 75, 25);
+}
+
+.poster{
+    flex: 60%;
+    position: relative;
+}
+
+.poster img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+}
+
+/*Footer*/
+.footer{
+    /* background-color: aquamarine; */
+    padding-left: 100px;
+}
+
+.icon i{
+    padding: 5px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 4px;
+    margin-right: 10px;
+}

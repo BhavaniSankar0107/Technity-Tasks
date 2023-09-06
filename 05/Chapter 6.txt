@@ -1,0 +1,27 @@
+1. An escape character lets you use the characters that are otherwise impossible to use in a string.
+
+2. \n  -> Newline/Line break
+   \t  -> Tab
+
+3. By making the string a raw string by placing a 'r' before the beginning quotation marks of a string.
+
+4. It isn't a problem because we used double quotes the mark start and end of string. So, any other character 
+   like single quote will be considered as a part of string.
+
+5. We can use Multiline strings that are written in between triple-single/double quotes.
+
+6. 'Hello, world!'[1]    -> 'e'
+   'Hello, world!'[0:5]  -> 'Hello'
+   'Hello, world!'[:5]   -> 'Hello'
+   'Hello, world!'[3:]   -> 'lo, world!'
+
+7. 'Hello'.upper()            -> 'HELLO'
+   'Hello'.upper().isupper()  -> True  
+   'Hello'.upper().lower()    -> 'hello'
+
+8. 'Remember, remember, the fifth of November.'.split()  ->  ['Remember,', 'remember, 'the', 'fifth', 'of', 'November.']
+   '-'.join('There can be only one.'.split())            ->  'There-can-be-only-one.'
+
+9. rjust(),ljust(),center() methods are used to right-justify, left-justify, and center a string.
+
+10. By using the string methods strip(), rstrip(), lstrip() we can trim whitespace characters from beginning or end of a string.

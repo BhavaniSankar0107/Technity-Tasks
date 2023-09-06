@@ -1,0 +1,15 @@
+1When you start the bot by running the script, it will reply to the "/start" or "/hello" command with a greeting message.
+
+2.You can stop the bot by sending the "/stop" or "/bye" command, and it will reply with a farewell message.
+
+3.If you send the "/help" command, the bot will reply with instructions on how to use it, including commands like "/movie"
+  to get movie information and "/export" to export movie data.
+
+4.When you send a "/movie" command followed by a movie name (e.g., "/movie The Shawshank Redemption"), the bot will fetch 
+  information about that movie from the OMDB API and reply with details about the movie, including the title, year, and plot. 
+  It will also save this information to a CSV file named "movie_data.csv."
+
+5.If you send the "/export" command, the bot will send you a downloadable CSV file containing the movie data it has collected.
+
+6.If you send any other message to the bot while it's running and the "botRunning" variable is set to True, it will reply with a 
+  message indicating that it didn't understand

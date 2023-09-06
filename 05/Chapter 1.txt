@@ -1,0 +1,28 @@
+1. Operators: *,-,/,+
+   Values: 'hello',-88.8,5
+
+2. Variable : spam
+   String: 'spam'
+
+3. 3 data types: int,float,string
+
+4. An expression is a combination of values, operators, and variables that can be evaluated to produce a single value.
+
+5. Expressions are used to compute values, while statements are used to perform actions or control the flow of a program.
+
+6. After running the following code, bacon = 20, because bacon+1 doesn't affect the value of bacon
+
+7. 'spam'+'spamspam' = 'spamspamspam'
+   'spam'*3 = 'spamspamspam'
+
+8. For a variable name to be valid it shouldn't start with number.
+   So, eggs is a valid variable name where as 100 isn't a valid varible name.
+
+9. By using int(),float(),str() functions, we can get integer, floating-point,
+   string versions of a value.
+
+10. 'I have eaten ' + 99 + ' burritos ' 
+    An expression always evaluate values of same datatypes. But here 99 is an integer,
+    where as other two are strings. So, expression is invalid. To validate it we use str() function.
+
+    'I have eaten ' + str(99) + ' burritos ' = 'I have eaten 99 burritos '

@@ -1,0 +1,1 @@
+Reading the text book after so many days felt a little tough at start, and i have taken nearly 4 days to complete each chapter at first and at the end i have completed the last three chapters in one day. It remembered my 10th class days.

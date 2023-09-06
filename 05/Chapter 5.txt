@@ -1,0 +1,19 @@
+1. mydic = {}
+
+2. dic = {'foo': 42}
+
+3. A dictionary stores unordered key-value pairs, while a list stores ordered elements.
+
+4. If you try to access spam['foo'] if spam is {'bar': 100} results in 'KeyError'
+   error message which is similar to list's "out-of-range" IndexError message.
+
+5. 'cat' in spam and 'cat' in spam.keys() does the same thing that is to check whether 
+   there is a key named 'cat' is there in dictionary or not. But 'cat' in spam.keys() 
+   requires an additional function call which makes it less effecient.
+
+6. 'cat' in spam checks the presence of a key named 'cat' in the dictionary spam where as
+   'cat' in spam.values() checks the presence of a value named 'cat' in the dictionary spam.
+
+7. spam.setdefault('color', 'black')
+
+8. pprint module and pprint() function can be used to "pretty print" dictionary values.

@@ -1,0 +1,1 @@
+I have learned about the events and eventlisteners concept in js from w3schools and geeks for geeks website and completed the task

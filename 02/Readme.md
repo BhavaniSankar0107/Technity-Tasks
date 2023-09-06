@@ -1,0 +1,1 @@
+In this task, I have arranged the pics and headings first using html and then i have used various css values to get the most accurate results. It was a bit tough while arranging the images because the images provided in the resources aren't same that are present in demo website

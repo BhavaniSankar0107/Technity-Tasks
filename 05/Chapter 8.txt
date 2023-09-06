@@ -1,0 +1,21 @@
+1. No, we have to install it using Pip. To install PyInputPlus
+
+2. We commonly import as import pyinputplus as pyip so that whenever 
+   we call a function we can write as pyip.func() instead of using pyinputplus.
+
+3. inputInt() only takes integers as input where as inputFloat() takes floating-point
+   values also as an input along with integer values.
+
+4. import pyinputplus as pyip
+
+   response=pyip.inputInt(lessThan=99,greaterThan=0)
+
+   The above line makes sure that input will be a integer that is greater than 0 and
+   less than 99 i.e. whole number between 0 and 99.
+
+5. A List of regular expression strings are passed to allowRegexes and blockRegexes arguments.
+
+6. After entering blank input three times, it shows retrylimitexception. After that it specifies
+   time and after completing of time it prints TimeoutException.
+
+7. After the limit is reached, it stores the default 'hello' as input.

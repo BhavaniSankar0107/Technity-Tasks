@@ -1,0 +1,1 @@
+Writing the code was not so tough part, but adjusting the code with lesser time complexity tested my coding skills.

@@ -1,0 +1,89 @@
+1. The two values of boolean data type are true and false.
+   We write them as 'True' and 'False'.
+
+2. The three boolean operators are and,or and not. 
+
+3. AND Logic table:
+   Value  Value  Output
+   True   True   True
+   True   False  False
+   False  True   False
+   False  False  False
+
+   OR Logic table:
+   Value  Value  Output
+   True   True   True
+   True   False  True
+   False  True   True
+   False  False  False
+
+   NOT Logic table:
+   Value  Output
+   True   False
+   False  True
+
+4. (5 > 4) and (3 == 5)                -> False
+   not (5 > 4)                         -> False
+   (5 > 4) or (3 == 5)                 -> True
+   not ((5 > 4) or (3 == 5))           -> False  
+   (True and True) and (True == False) -> False
+   (not False) or (not True)           -> True
+
+5. The six comparison operators are ==,!=,>,<,>=,<=
+
+6. The equal to operator checks whether two values are equal or not and returns a boolean value.
+   Where as assignment operator performs action by assigning a value to a variable.
+
+7. A condition is a statement or an expression that evaluates to either true or false. 
+   Conditions are used to make decisions in a program. They determine the flow of the program
+   by controlling whether certain blocks of code are executed or not based on whether the condition is true or false.
+
+8. Block 1:
+   spam = 0
+   if spam == 10:
+       print('eggs')
+       if spam > 5:
+           print('bacon')
+       else:
+           print('ham')
+    print('spam')
+   
+   Block 2:
+       print('eggs')
+    if spam > 5:
+        print('bacon')
+    else:
+        print('ham')
+    print('spam')
+   
+   Block 3:
+   print('spam')
+
+9. spam = int(input("Enter a value for spam: "))  
+
+   if spam == 1:
+       print("Hello")
+   elif spam == 2:
+       print("Howdy")
+   else:
+       print("Greetings!")
+
+10. Ctrl + C
+
+11. Break is used to exit the loop entirely when a certain condition is met.
+    Continue is used to skip the remaining code for the current iteration and proceed to the next iteration of the loop.
+
+12. The three ranges are equivalent. The first one only mentions stop value, where as the second one 
+    mentions both start and stop value, and the third one mentions all start,stop and step values.
+
+13. Program using 'for' loop
+    for i in range(1,11):
+    print(i)
+
+    Program using 'while' loop
+    i = 1
+    while i<=10:
+       print(i)
+       i+=1
+
+14. spam.bacon()

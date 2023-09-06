@@ -1,0 +1,1 @@
+I have used w3schools to learn about form validation and the i have also used automate the boring stuff with python book while performing this task to learn and i have used those regex expressions to complete the task.
